@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import {FaTimes,FaBars,FaGithub,FaLinkedin} from 'react-icons/fa';
+import {FaTimes,FaBars,FaGithub,FaLinkedin,FaSmile} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 
@@ -11,7 +11,7 @@ const Navbar=()=>{
    return (
       <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
          <div>
-            Shafi
+            <FaSmile size={35}/>
          </div>
 
             <ul className='hidden md:flex'>
