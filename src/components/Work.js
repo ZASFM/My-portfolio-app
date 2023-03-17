@@ -44,7 +44,7 @@ const Work=()=>{
                <div style={{backgroundImage:`url(${background})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                   <div className='opacity-0 group-hover:opacity-100'>
                      <span className='text-2xl font-bold  text-white tracking-wider'>
-                        GraphQL management app
+                        Food app
                      </span>
                      <div className='pt-8 text-center'>
                         <a href="/">
@@ -59,7 +59,7 @@ const Work=()=>{
                <div style={{backgroundImage:`url(${background})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                   <div className='opacity-0 group-hover:opacity-100'>
                      <span className='text-2xl font-bold  text-white tracking-wider'>
-                        Grpahql management app
+                        GraphQL management app
                      </span>
                      <div className='pt-8 text-center'>
                         <a href="/">
