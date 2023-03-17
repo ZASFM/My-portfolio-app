@@ -2,11 +2,13 @@ import React from 'react';
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png'
-import Jasmine from '../assets/jasmin.png'
+import Jest from '../assets/jest.png'
 import PSQL from '../assets/psql.png'
 import react from '../assets/react.png'
 import Git from '../assets/git.png'
 import Node from '../assets/node.png'
+import Docker from '../assets/docker.png';
+import gql from '../assets/graphql.webp';
 
 const Skills=()=>{
    return (
@@ -31,16 +33,22 @@ const Skills=()=>{
                   <p className='my-4'>React</p>
                </div>
                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-300 h-[200px] m-[20px]'>                  <img className='w-full h-[75%]' src={Node} alt="html"/>
-                  <p className='my-4'>Node + Express</p>
+                  <p className='my-4'>Node + Express </p>
                </div>
-               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-300 h-[200px] m-[20px]'>                  <img className='w-full h-[75%]' src={Jasmine} alt="html"/>
-                  <p className='my-4'>Jasmine + jest</p>
+               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-300 h-[200px] m-[20px]'>                  <img className='w-full h-[75%]' src={gql} alt="html"/>
+                  <p className='my-4'>GraphQL </p>
+               </div>
+               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-300 h-[200px] m-[20px]'>                  <img className='w-full h-[75%]' src={Jest} alt="html"/>
+                  <p className='my-4'>Jest + React test-library</p>
                </div>
                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-300 h-[200px] m-[20px]'>                  <img className='w-full h-[75%]' src={PSQL} alt="html"/>
                   <p className='my-4'>PSQL + MongoDB</p>
                </div>
                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-300 h-[200px] m-[20px]'>                  <img className='w-full h-[75%]' src={Git} alt="html"/>
-                  <p className='my-4'>Git</p>
+                  <p className='my-4'>Git + Github</p>
+               </div>
+               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-300 h-[200px] m-[20px]'>                  <img className='w-full h-[75%]' src={Docker} alt="html"/>
+                  <p className='my-4'>Docker</p>
                </div>
             </div>
          </div>
